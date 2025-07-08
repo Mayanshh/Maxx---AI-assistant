@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Max - AI Assistant</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Max - Your AI Assistant</h1>
+    <div class="input-container">
+      <input type="text" id="textInput" placeholder="Ask me anything..." autocomplete="off">
+      <button onclick="handleSpeak()">
+        <i class="fas fa-robot"></i>
+        Ask Max
+      </button>
+    </div>
+    <div id="status" class="status"></div>
+    <div id="loading" class="loading-container">
+      <div class="loading-dots">
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+      </div>
+    </div>
+  </div>
+  <script src="/js/chat.js"></script>
+</body>
+</html>
